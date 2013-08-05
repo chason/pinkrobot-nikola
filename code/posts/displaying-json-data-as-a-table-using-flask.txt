@@ -1,0 +1,72 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2013/08/05 00:53:37
+.. title: Displaying JSON Data as a Table using Flask
+.. slug: displaying-json-data-as-a-table-using-flask
+
+`WordCamp SF`_ is coming up in just a few days, and that means its time to meet
+a bunch of new people. I hate going to these things blind, so last year I wrote
+a small Python script to go through the list of attendees, extract their
+website, and run a WHOIS search on their IP to find out who their website host
+was.
+
+This was useful at the time to get a read on the upcoming crowd and see
+approximately how many customers we had who were attending, and how many our
+competitors had. Unfortunately it wasn’t nearly as useful once we were there.
+I wanted to do something similar this year, but instead of getting statistics
+on the attendees as a whole I decided to get some data on the individuals.
+
+.. TEASER_END
+
+I decided not to do the WHOIS information this year because the information was
+unreliable, difficult to scrape, and not very useful in the end. Since WordCamp
+provides the website and Twitter handles of the attendees (if they choose to
+provide it), I figured the best metrics would be the Google PageRank of their
+website and the Klout_ score associated with their Twitter handle. Say what you
+will about the validity or importance of these ratings but at a conference for
+blogging software, they’re somewhat relevant.
+
+Scraping the Data
+-----------------
+
+I began working out a program to get this information, but this was my first
+time using the lxml_ library and I overcomplicated the design. When I got
+frustrated with this, I just started hacking away in IPython_. I ended up using
+requests_ retrieving the page, lxml to parse the HTML, PyKlout_ to get the
+Klout data, and the Python script from Phurix’s `collection of PageRank scripts`_.
+
+I didn’t want to throw this data into a database because I’m lazy and didn’t
+feel like writing out a schema. Instead, I wrote out my Python object to a file
+encoded in JSON_. Of course, this wasn’t very interesting because while I had
+my data it was not very accessible.
+
+JSON to Flask
+-------------
+
+So I decided to use Flask_ to create a webpage out of the data. I used Flask
+because I’d had my eye on it for a while as a really cool web micro-framework.
+This problem is pretty simple, but Flask did an amazing job not getting in my
+way which is what you really want in a micro-framework. Here’s what the
+application code looked like:
+
+.. gist:: 6154188
+
+Obviously, there’s plenty more I can do. Right now the data is only sorted by
+the Klout score, but it wouldn’t be that difficult to fix that and add
+pagination as well.
+
+I’m going to be doing some more stuff with this in a few days, but I thought
+this might be useful for anyone else that has some JSON data they need to
+quickly see in a table.
+
+.. _WordCamp SF: http://2012.sf.wordcamp.org/
+.. _lxml: http://lxml.de/
+.. _IPython: http://ipython.org/
+.. _requests: http://docs.python-requests.org/
+.. _PyKlout: https://github.com/marcelcaraciolo/PyKlout
+.. _collection of PageRank scripts: https://github.com/phurix/pagerank/
+.. _Klout: http://klout.com/home
+.. _JSON: http://docs.python.org/library/json.html
+.. _Flask: http://flask.pocoo.org/
+

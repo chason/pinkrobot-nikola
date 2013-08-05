@@ -9,16 +9,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Your Name"
-BLOG_TITLE = "Demo Site"
+BLOG_AUTHOR = "Chason Chaffin"
+BLOG_TITLE = "Pinkrobot"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://nikola.ralsina.com.ar"
+SITE_URL = "http://pinkrobot.org"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://nikola.ralsina.com.ar"
-BLOG_EMAIL = "joe@demo.site"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."
+BLOG_EMAIL = "chason@gmail.com"
+BLOG_DESCRIPTION = "Home of Chason Chaffin, Internet Thousandiare"
 
 # Nikola is multilingual!
 #
@@ -235,7 +235,7 @@ post_compilers = {
 # translated
 
 # Name of the theme to use.
-# THEME = 'site'
+THEME = 'default'
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
@@ -267,7 +267,7 @@ post_compilers = {
 # }
 
 # Show only teasers in the index pages? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # A HTML fragment describing the license, for the sidebar. Default is "".
 # I recommend using the Creative Commons' wizard:
@@ -289,7 +289,7 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # http://disqus.com, and set DISQUS_FORUM to the short name you selected.
 # If you want to disable comments, set it to False.
 # Default is "nikolademo", used by the demo sites
-# DISQUS_FORUM = "nikolademo"
+DISQUS_FORUM = False
 
 # Create index.html for story folders?
 # STORY_INDEX = False

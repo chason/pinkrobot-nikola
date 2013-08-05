@@ -1,0 +1,59 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2012/08/01 00:30:47
+.. title: William Morris
+.. slug: william-morris
+
+.. image:: http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/William_Morris_age_53.jpg/476px-William_Morris_age_53.jpg
+   :alt: William Morris
+   :align: right
+   :width: 333px
+   :height: 419px
+
+William Morris was a 19th century figure in England, known for his socialist
+philosophy, design, and art. He was a member of the Arts & Crafts movement, as
+well as the Pre-Raphaelite brotherhood. Of course, you can get all this
+`information on Wikipedia`_.
+
+His deep appreciation of work and his dedication towards making beautiful
+functional things is one of the reasons I greatly admire him. As I ensconce
+myself more and more in the world of coding, I gain a greater appreciation of
+how deeply programming is connected to the arts. Matt Mullenweg, the founding
+developer of WordPress, often says “code is poetry”. Stewart Brand’s “How
+Buildings Learn” has become my bible for thinking about the structure of
+software. So obviously, William Morris has some fascinating things to say that
+I find very relatable to my work:
+
+    [A] man at work, making something which he feels will exist because he is
+    working at it and wills it, is exercising the energies of his mind and soul
+    as well as of his body. Memory and imagination help him as he works.
+
+.. TEASER_END
+
+One thing that I find missing from most modern discourse is the sheer pleasure
+of working, and creating something. The act of creation is something that
+coding contains which is not found in many white collar jobs these days. While
+I may not be “working with my hands”, I am making something as much as any
+architect, carpenter, mechanic, or mason. Programming is nothing less than the
+creation of order out of chaos, which is why Matt’s assertion that code and
+poetry are equivalent is so striking.
+
+    Nothing should be made by man’s labour which is not worth making; or which
+    must be made by labour degrading to the makers.
+
+At the same time, most programmers are merely toiling, doing busywork, and not
+experiencing the sublime joy of creation. While in some respects this is the
+natural consequence of working for someone else, it is an awful thing that so
+many are engaged in unfulfilling, degrading work.
+
+To conclude, I wish more programmers and software engineers viewed their work
+as a valuable creative act that can be a truly meaningful, ecstatic experience.
+Too many don’t bother looking outside of their own field for inspiration or
+kinship, and I have rarely heard anyone else in my field express solidarity
+with blue collar workers.
+
+    I do not want art for a few, any more than education for a few, or freedom
+    for a few.
+
+.. _information on Wikipedia: http://en.wikipedia.org/wiki/William_Morris
