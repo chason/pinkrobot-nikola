@@ -1,7 +1,7 @@
 .. link: 
 .. description: 
 .. tags: 
-.. date: 2013/08/05 00:53:37
+.. date: 2012/08/02 00:53:37
 .. title: Displaying JSON Data as a Table using Flask
 .. slug: displaying-json-data-as-a-table-using-flask
 
