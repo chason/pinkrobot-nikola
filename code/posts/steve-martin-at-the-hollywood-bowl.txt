@@ -1,0 +1,31 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2013/08/08 01:48:28
+.. title: Steve Martin at the Hollywood Bowl
+.. slug: steve-martin-at-the-hollywood-bowl
+
+Tonight I got to see `Steve Martin`_ in concert at the `Hollywood Bowl`_. While I was
+expecting a great show, I was really blown away. Not only did he have incredibly
+entertaining banter in between songs, not only did he have a hugely talented
+backup band (`Steep Canyon Rangers`_), but he also showed off his chops as a
+talented musician who has been playing and mastering his instrument for fifty
+years.
+
+Also not to be missed was `Edie Brickell`_ assisting on the songs from their
+latest album, `Love Has Come For You`_. Her saucy, rich voice complimented
+his banjo and made for a wonderful evening.
+
+This was my first time at the Hollywood Bowl, and I was very impressed. It is
+a beautiful venue set in the Hollywood Hills just north of Hollywood Blvd. Set
+inside a valley, its size makes it feel like a geographic landmark. Additionally,
+the venue lets people bring in their own food and drink which is a great touch.
+
+While you won't be able to see him at the Hollywood Bowl again for the time
+being, if you have a chance to catch him during this tour I highly recommend it.
+
+.. _steve martin: http://www.stevemartin.com/
+.. _hollywood bowl: http://www.hollywoodbowl.com/
+.. _steep canyon rangers: http://www.steepcanyon.com/
+.. _edie brickell: http://www.ediebrickell.com/
+.. _love has come for you: http://en.wikipedia.org/wiki/Love_Has_Come_For_You
